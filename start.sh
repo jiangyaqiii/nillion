@@ -9,6 +9,7 @@ fi
 
 #下载安装脚本
 curl https://nilup.nilogy.xyz/install.sh | bash
+source /root/.bashrc
 
 #确认全局安装
 nilup -V
